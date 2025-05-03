@@ -15,7 +15,7 @@
             <li><a href = "sellProduct.php">Sell Products</a>&nbsp;&nbsp;</li>
             <li><a href = "view_reviews.php">Reviews</a>&nbsp;&nbsp;</li>
             <li><a href = "myProducts.php">My Products</a>&nbsp;&nbsp;</li>
-            <li><a href = "Profile.php">Profile</a>&nbsp;&nbsp;</li>
+            <li><a href = "Profile.php">profile</a>&nbsp;&nbsp;</li>
             <li><a href = "logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
     </nav>
