@@ -38,7 +38,7 @@ session_start();
 <input type="text" class="login-input" name="username" placeholder="Username" autofocus="true"/>
                     <input type="password" class="login-input" name="password" placeholder="Password"/>
                     <input type="submit" value="Login" name="submit" class="login-button"/>
-        <p class="link"><a href="index.php">Login</a></p>
+        <p class="link"><a href="register.php">Registation</a></p>
   </form>
 <?php
     }
