@@ -15,6 +15,7 @@
         <li><a href = "home.php">Home</a>&nbsp;&nbsp;</li>
             <li><a href = "markets.php">Markets</a>&nbsp;&nbsp;</li>
             <li><a href = "sellProduct.php">Sell Products</a>&nbsp;&nbsp;</li>
+            <li><a href = "view_reviews.php">Reviews</a>&nbsp;&nbsp;</li>
             <li><a href = "posts.php">Posts</a>&nbsp;&nbsp;</li>
             <li><a href = "logout.php">Logout</a>&nbsp;&nbsp;</li>
         </ul>
@@ -43,7 +44,7 @@
  while($row = mysqli_fetch_array($result))
  {
 echo "<tr>";
-echo "<td><img src='productImages/{$row['productName']}' width='100'></td>";
+echo "<td><img src='products/{$row['productName']}' width='100'></td>";
 echo "<td>".$row['name']."</td>";
 echo "<td>".$row['quantity']."</td>";
 echo "<td>".$row['price']."</td>";

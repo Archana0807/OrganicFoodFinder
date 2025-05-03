@@ -11,7 +11,6 @@
         <ul>
         <ul>
         <li><a href = "home.php">Home</a>&nbsp;&nbsp;</li>
-            <li><a href = "weather.php">Weather</a>&nbsp;&nbsp;</li>
             <li><a href = "markets.php">Markets</a>&nbsp;&nbsp;</li>
             <li><a href = "sellProduct.php">Sell Products</a>&nbsp;&nbsp;</li>
             <li><a href = "myProducts.php">My Products</a>&nbsp;&nbsp;</li>

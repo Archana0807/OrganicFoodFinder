@@ -14,7 +14,7 @@
     include('db.php');
     $result = mysqli_query($con, "SELECT * from `products` where name='$name'");
     $row=mysqli_fetch_array($result);
-    unlink("productImages/".$row['productName']);
+    unlink("products/".$row['productName']);
     mysqli_query($con,"delete from `products` where name='$name'");
     echo "<div class='form'>
     <h3>Deleted succesfully</h3><br/>

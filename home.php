@@ -41,7 +41,7 @@
  while($row = mysqli_fetch_array($result))
  {
 echo "<tr>";
-echo "<td><img src='productImages/{$row['productName']}' width='100'></td>";
+echo "<td><img src='products/{$row['productName']}' width='100'></td>";
 echo "<td>".$row['product_name']."</td>";
 echo "<td>".$row['price']."</td>";
 

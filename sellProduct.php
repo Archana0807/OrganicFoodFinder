@@ -10,8 +10,8 @@
     <nav>
         <ul>
         <li><a href = "home.php">Home</a>&nbsp;&nbsp;</li>
-            <li><a href = "weather.php">Weather</a>&nbsp;&nbsp;</li>
             <li><a href = "markets.php">Markets</a>&nbsp;&nbsp;</li>
+            <li><a href = "view_reviews.php">Reviews</a>&nbsp;&nbsp;</li>
             <li><a href = "posts.php">Posts</a>&nbsp;&nbsp;</li>
             <li><a href = "myProducts.php">My Products</a>&nbsp;&nbsp;</li>
             <li><a href = "logout.php">Logout</a>&nbsp;&nbsp;</li>
@@ -34,7 +34,7 @@ require('db.php');
         $price    = stripslashes($_REQUEST['price']);
         $price   = mysqli_real_escape_string($con, $price);
         $productName = $_FILES['productImg']['name'];
-        $destination = 'productImages/'. $productName;
+        $destination = 'products/'. $productName;
         move_uploaded_file($_FILES['productImg']['tmp_name'], $destination);
         $query    = "INSERT into `products` (name, productName, username, quantity, price)
                      VALUES ('$name','$productName', '$username', '$quantity', '$price')";
