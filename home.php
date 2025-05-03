@@ -46,7 +46,7 @@ echo "<td>".$row['product_name']."</td>";
 echo "<td>".$row['price']."</td>";
 
 echo "<td>".$row['username']."</td>";
-echo "<td>".$row['phnum']."</td>";
+echo "<td>".$row['phonenum']."</td>";
 
  echo "</tr>";
  }
